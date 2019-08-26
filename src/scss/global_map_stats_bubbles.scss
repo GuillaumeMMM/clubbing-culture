@@ -1,0 +1,13 @@
+.global-map-stats-bubbles-container {
+
+}
+@media screen and (max-width: 500px) {
+    .global-map-stats-bubbles-container {
+        .legend-group {
+            g {
+                opacity: 0;
+            }
+        }
+        
+    }
+}

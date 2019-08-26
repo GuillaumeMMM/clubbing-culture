@@ -1,0 +1,13 @@
+.genre-map-container {
+    // border-radius: 100%;
+    border: 1px solid white;
+    margin: 20px;
+
+    .leaflet-control-zoom {
+        opacity: 0;
+    }
+
+    .leaflet-control-attribution {
+        opacity: 0;
+    }
+}

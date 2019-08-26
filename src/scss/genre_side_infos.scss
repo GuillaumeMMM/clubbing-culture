@@ -1,0 +1,80 @@
+.genre-side-infos-container {
+    background-color: #041821bd;
+    position: absolute;
+    top: 0;
+    left: -1000px;
+    height: 100%;
+    z-index: 1001;
+    width: 40vw;
+    overflow: scroll;
+    transition: left 0.5s;
+    -webkit-transition: left 0.5s;
+
+    .genre-side-infos-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 40px;
+        font-size: 2.5em;
+
+        .quit-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+
+            .circle-svg {
+                position: absolute;
+                z-index: 2;
+        
+                .outer {
+                    fill: transparent;
+                    stroke: white;
+                    stroke-width: 1.5;
+                    stroke-dasharray: 100;
+                    stroke-dashoffset: 100;
+                    transition: stroke-dashoffset 0.5s;
+                }
+            }
+        }
+
+        .quit-icon:hover .circle-svg .outer {
+            stroke-dashoffset: 0 !important;
+        }
+    }
+
+    .genre-side-infos-content {
+        padding: 40px;
+    }
+
+    .genre-side-video {
+        width: 90%;
+        height: 50%;
+        border: none;
+        margin-left: 5%;
+    }
+
+    // .city-side-infos-quit {
+    //     position: absolute;
+    //     top: 10px;
+    //     right: 40px;
+    // }
+}
+
+@media screen and (max-width: 700px) {
+    .genre-side-infos-container {
+        width: 70vw;
+        
+    }
+    // .city-side-infos-subtitle, .city-side-infos-content {
+    //     width: 80%;
+    //     margin-left: 10%;
+    // }
+}
+
+@media screen and (max-width: 500px) {
+    .genre-side-infos-title {
+        font-size: 1.5em !important;
+        
+    }
+}

@@ -1,0 +1,17 @@
+.loader-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: $back_main;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 2000;
+  }
+
+  .loader-container-fixed {
+    position: fixed !important;
+  }

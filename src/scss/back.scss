@@ -1,0 +1,45 @@
+.back-container {
+    height: 10vh;
+    margin: 0 25px;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        a {
+            text-decoration: underline;
+        }
+    }
+
+    a {
+        color: $color_main;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .back-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        margin-right: 20px;
+
+        .circle-svg {
+            position: absolute;
+            z-index: 2;
+    
+            .outer {
+                fill: transparent;
+                stroke: $color_main;
+                stroke-width: 1.5;
+                stroke-dasharray: 100;
+                stroke-dashoffset: 100;
+                transition: stroke-dashoffset 0.5s;
+            }
+        }
+    }
+
+    &:hover .back-icon .circle-svg .outer {
+        stroke-dashoffset: 0 !important;
+    }
+}

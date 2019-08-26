@@ -1,0 +1,124 @@
+.home-container {
+    width: 100%;
+
+    .home-top-part {
+        height: 65vh;
+        width: 100%;
+        display: flex;
+        position: relative;
+
+        .home-design {
+            flex: 1;
+            height: 65vh;
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            // background-color: orange;
+        }
+
+        .home-main {
+            flex: 1;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+
+            h1 {
+                margin-top: 50px;
+                text-align: center;
+            }
+
+            p {
+                margin-top: 10vh;
+                margin-left: 40%;
+                width: 60%;
+                padding: 0 50px 30px 0;
+                font-size: 1.2em;
+            }
+
+            a {
+                text-decoration: none;
+                // font-weight: 800;
+                color: white;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .home-bottom-part {
+        height: 35vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .home-button-box {
+            height: 100%;
+        }
+    }
+}
+
+#home-content {
+   height: 0;
+   position: relative;
+}
+
+
+@media screen and (max-width: 900px) {
+    .home-container {
+        .home-top-part {
+            height: auto !important;
+        }
+        .home-main {
+            p {
+                font-size: 1.2em !important;
+                width: 80% !important;
+                margin-left: 10% !important;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+        }
+        .home-bottom-part {
+            flex-direction: column;
+            height: auto !important;
+            width: 80% !important;
+            margin-left: 10%;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .home-container {
+        .home-top-part {
+            .home-text {
+                margin-top: 5vh !important;
+                padding: 0 !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .home-container {
+        .home-top-part {
+            .home-text {
+                font-size: 1em !important;
+            }
+
+            .home-main {
+                p {
+                    font-size: 1em !important;
+                }
+    
+                h1 {
+                    font-size: 1.5em;
+                }
+            }
+        }
+    }
+}

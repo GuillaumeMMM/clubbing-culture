@@ -1,0 +1,24 @@
+.city-exploration-map-container {
+    background-color: grey;
+    height: 60vh;
+    width: 60vh;
+
+    // .leaflet-control-zoom {
+    //     opacity: 0;
+    // }
+
+    .leaflet-control-attribution {
+        opacity: 0;
+    }
+
+    svg {
+        pointer-events: all;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .city-exploration-map-container {
+        width: 90vw !important;
+        height: 90vw !important;
+    }
+}

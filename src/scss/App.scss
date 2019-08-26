@@ -1,0 +1,69 @@
+
+@import './variables';
+@import './home.scss';
+@import './home_button.scss';
+@import './places.scss';
+@import './genres.scss';
+@import './regular_button.scss';
+@import './global_map.scss';
+@import './global_map_stats_bubbles.scss';
+@import './city_side_infos.scss';
+@import './genre_side_infos.scss';
+@import './genre_side_infos_gooey.scss';
+// @import './genre_tree.scss';
+@import './genre_map.scss';
+@import './genre_maps.scss';
+@import './genre_trees.scss';
+@import './genre_tree_gooey.scss';
+@import './city.scss';
+@import './city_story.scss';
+@import './city_exploration.scss';
+@import './city_exploration_filters.scss';
+@import './city_exploration_map.scss';
+@import './city_clubs.scss';
+@import './city_text.scss';
+@import './city_club.scss';
+@import './city_clubs_filters';
+@import './global_map_help.scss';
+@import './genres_tree_help.scss';
+@import './city_club_help.scss';
+@import './separator.scss';
+@import './back.scss';
+@import './footer.scss';
+@import './about.scss';
+@import './not_found.scss';
+@import './loader.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $back_main;
+  color: $color_main;
+  font-family: $font_main;
+  overflow-x: hidden;
+
+  .content-container {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 4em;
+    font-family: $font_title;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h1, h2 {
+    font-weight: 400;
+  }
+
+  .leaflet-container {
+    background: $back-main;
+  }
+}

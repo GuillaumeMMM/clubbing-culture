@@ -1,0 +1,90 @@
+.home-button-container {
+    // background-color: red;
+    width: 35vw;
+    display: table;
+    height: 25vh;
+    margin: 0 20px;
+    margin-top: 5vh;
+    border-radius: 15px;
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 0;
+
+    .home-button-title {
+        z-index: 1;
+        pointer-events: none;
+    }
+
+    .home-button-text {
+        z-index: 1;
+        pointer-events: none;
+    }
+
+    .home-button-arrow {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        pointer-events: none;
+        z-index: 1;
+
+        .circle-svg {
+            position: absolute;
+            z-index: 2;
+    
+            .outer {
+                fill: transparent;
+                stroke: white;
+                stroke-width: 1.5;
+                stroke-dasharray: 100;
+                stroke-dashoffset: 100;
+                transition: stroke-dashoffset 0.5s;
+            }
+        }
+    }
+
+    .home-button-background-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
+}
+
+.home-button-container:hover .outer{
+    stroke-dashoffset: 0 !important;
+}
+
+@media screen and (max-width: 900px) {
+    .home-button-container {
+        width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+
+        // .home-button-text {
+        //     font-size: 0.8em;
+        // }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .home-button-container {
+        .home-button-text {
+            font-size: 1em;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .home-button-container {
+        .home-button-text {
+            font-size: 0.7em;
+        }
+    }
+}

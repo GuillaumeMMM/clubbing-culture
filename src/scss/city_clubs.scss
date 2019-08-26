@@ -1,0 +1,14 @@
+.city-clubs-container {
+    background-color: $back_main;
+
+    & > h2 {
+        margin: 10vh 10%;
+    }
+    // height: 100vh;
+    .city-clubs {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

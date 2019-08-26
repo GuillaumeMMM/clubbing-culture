@@ -1,0 +1,86 @@
+.genre-trees-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+    .genre-side-infos-container {
+        right: -1000px;
+        left: auto;
+        top: 0;
+        position: fixed;
+        height: 100vh;
+        // background-color: #1e3f4ebd;
+    }
+
+    .genre-side-infos-gooey-container {
+        right: -1000px;
+        left: 0;
+        top: 0;
+        position: fixed;
+        height: 30vh;
+        width: 100%;
+        // background-color: #1e3f4ebd;
+    }
+
+    .genre-tree-gooey {
+        position: absolute;
+        pointer-events: none;
+    }
+
+    .genre-tree-gooey-0 { // HOUSE
+        top: 55vh;
+        left: 25vw;
+    }
+
+    .genre-tree-gooey-1 { // TECHNO
+        top: -10vh;
+        left: 0;
+    }
+
+    .genre-tree-gooey-2 { // TRANCE
+        top: 120vh;
+        left: 45vw;
+    }
+
+    .genre-tree-gooey-3 { // EDM
+        top: 110vh;
+        left: 0;
+    }
+
+    .genre-tree-gooey-4 { // AMBIENT
+        top: 250vh;
+        left: 10vw;
+    }
+    .genre-tree-gooey-5 { // RNB
+        right: 0;
+        top: -10vh;
+    }
+    .genre-tree-gooey-6 { // EXPERIMENTAL
+        top: 200vh;
+        left: -10vw;
+    }
+    .genre-tree-gooey-7 { // INDUSTRIAL
+        top: 55vh;
+        right: -10vw;
+    }
+    .genre-tree-gooey-8 { // NEW WAVE
+        top: 170vh;
+        left: 25vw;
+    }
+    .genre-tree-gooey-9 { // HIP HOP
+        top: 230vh;
+        right: 0;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .genre-trees-container {
+        .genre-tree-gooey {
+            position: relative !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+    }
+}

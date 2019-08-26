@@ -1,0 +1,31 @@
+.city-exploration-filters-container {
+    width: 50vw;
+    // background-color: pink;
+
+    .form-container {
+        // display: inline;
+    }
+
+    .genre-name {
+        cursor: pointer;
+        margin: 0 10px;
+    }
+
+    p {
+        width: 80%;
+        margin-left: 10%;
+        padding: 0 10px 10px 10px;
+        margin-bottom: 20px;
+    }
+
+    span {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .city-exploration-filters-container {
+        width: 100vw;
+        margin-top: 30px;
+    }
+}

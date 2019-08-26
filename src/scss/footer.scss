@@ -1,0 +1,17 @@
+.footer-container {
+    width: 90%;
+    margin-left: 5%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+        color: $color_main;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.regular-button-container {
+    height: auto;
+    display: inline-block;
+    color: white;
+    border: none;
+    padding: 6px 8px;
+    font-family: $font_main;
+    font-size: 1.2em;
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+
+    .regular-button-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .regular-button-text {
+        z-index: 1;
+        pointer-events: none;
+    }
+}

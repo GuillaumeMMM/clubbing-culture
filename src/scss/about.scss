@@ -1,0 +1,45 @@
+.about-container {
+    height: 100vh;
+    width: 100%;
+
+    .about-header {
+        height: 20vh;
+
+        h1 {
+            text-align: center;
+        }
+    }
+
+    .about-content {
+        min-height: 60vh;
+        width: 60%;
+        margin-left: 20%;
+        font-size: 1.2em;
+        // background-color: white;
+
+        p {
+            width: 90%;
+            margin-left: 5%;
+            margin-bottom: 50px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: 800;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .about-container {
+        .about-content {
+            width: 90% !important;
+            margin-left: 5% !important;
+        }
+    }
+}

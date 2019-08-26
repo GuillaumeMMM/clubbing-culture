@@ -1,0 +1,62 @@
+.genre-tree-container {
+    width: 100%;
+    color: white;
+    display: flex;
+    
+    .genre-tree {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+
+      .genre-tree-element {
+        font-size: 2em;
+        display: flex;
+        margin-bottom: 3em;
+        position: relative;
+
+        .genre-tree-parent {
+            display: table;
+            margin-left: 10%;
+            padding: 10px 15px;
+            transition: background-color 0.4s;
+            cursor: pointer;
+        }
+        .genre-tree-children {
+          padding-left: 8em;
+          display: table;
+          .genre-tree-child {
+            margin-bottom: 1em;
+            padding: 10px 15px;
+            border-radius: 2px;
+            display: table;
+            // transition: background 0.4s;
+            cursor: pointer;
+          }
+        }
+      }
+
+      svg {
+        pointer-events: none;
+      }
+
+      .genre-tree-child:hover, .genre-tree-parent:hover, .genre-tree-child:not(.active), .genre-tree-parent:not(.active), .genre-tree-child.selected, .genre-tree-parent.selected {
+        -webkit-box-shadow:inset 0px 0px 0px 2px #fff;
+        -moz-box-shadow:inset 0px 0px 0px 2px #fff;
+        box-shadow:inset 0px 0px 0px 2px #fff;
+      }
+    }
+    .genre-details-container {
+      width: 30%;
+      position: fixed;
+      right: 0;
+      top: 0;
+    }
+
+    .genre-side-infos-container {
+        right: -1000px;
+        left: auto;
+        top: 0;
+        position: fixed;
+        height: 100vh;
+    }
+  }

@@ -1,0 +1,180 @@
+.genres-tree-help-container {
+    width: 50%;
+    height: 70vh;
+    margin-left: 25%;
+    // color: $back-main;
+    // background-color: $color_main;
+    border-radius: 15px;
+    z-index: 1002;
+    padding: 20px;
+    border: 1px solid white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    .genres-tree-help-pages {
+        width: 100%;
+        height: 10%;
+        position: absolute;
+        bottom: 15px;
+        // padding: 20px;
+        left: 0;
+        z-index: -1;
+        // text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .genres-tree-help-header {
+        .title {
+            font-size: 2.4em;
+        }
+    }
+    .genres-tree-help-content {
+        height: 100%;
+        width: 70%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .left-part {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            // display: flex;
+            // flex-direction: column;
+            // align-items: center;
+            // justify-content: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            p {
+                text-align: center;
+                padding: 10px;
+            }
+        }
+        .right-part {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            p {
+                width: 90%;
+                text-align: center;
+                padding: 5px 10px;
+                // font-size: 0.9em;
+            }
+
+            .map-container {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+    }
+
+    .genres-tree-help-footer {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .next, .back {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .next {
+            justify-content: flex-end;
+        }
+
+        .back {
+            justify-content: flex-start;
+        }
+    
+        .next-icon, .back-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+    
+            .circle-svg {
+                position: absolute;
+                z-index: 2;
+        
+                .outer {
+                    fill: transparent;
+                    stroke: white;
+                    stroke-width: 1.5;
+                    stroke-dasharray: 100;
+                    stroke-dashoffset: 100;
+                    transition: stroke-dashoffset 0.5s;
+                }
+            }
+        }
+    
+        .next:hover .circle-svg .outer, .back:hover .circle-svg .outer {
+            stroke-dashoffset: 0 !important;
+        }
+        .next-text, .back-text {
+            margin: 0 30px;
+        }
+    }
+
+    .main-circle-text-around {
+
+        textPath, circle {
+            // fill: $back-main !important;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .genres-tree-help-container {
+        width: 90% !important;
+        margin-left: 5% !important;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .genres-tree-help-container {
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .genres-tree-help-container {
+        .genres-tree-help-content {
+            width: 100% !important;
+        }
+
+        .genres-tree-help-footer {
+            font-size: 0.8em !important;
+
+            .back-text, .next-text {
+                margin: 0 10px !important;
+            }
+        }
+
+        .genre-map-container {
+            height: 100px !important;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.city-story-container {
+    // background-color: green;
+    min-height: 70vh;
+    width: 100%;
+    position: relative;
+
+    .city-story-text {
+        width: 50%;
+        margin-left: 50%;
+        padding: 30px;
+        position: relative;
+        z-index: 100;
+    }
+
+    .city-story-design {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .city-story-container {
+        .city-story-text {
+            width: 70%;
+            margin-left: 30%;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .city-story-container {
+        .city-story-text {
+            width: 100%;
+            margin-left: 0%;
+        }
+    }
+}
