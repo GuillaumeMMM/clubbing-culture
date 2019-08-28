@@ -23,17 +23,28 @@
             display: flex;
             flex-direction: column;
 
-            h1 {
+            .home-header {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
                 margin-top: 50px;
-                text-align: center;
+                h1 {
+                    // text-align: center;
+                }
+                p {
+                    font-size: 1.1em;
+                }
             }
 
-            p {
+            .home-text {
                 margin-top: 10vh;
                 margin-left: 40%;
                 width: 60%;
                 padding: 0 50px 30px 0;
-                font-size: 1.2em;
+                font-size: 1.1em;
+                line-height: 1.3em;
             }
 
             a {
@@ -79,7 +90,7 @@
             }
 
             h1 {
-                font-size: 2em;
+                // font-size: 2em;
             }
         }
         .home-bottom-part {
@@ -99,6 +110,13 @@
                 margin-top: 5vh !important;
                 padding: 0 !important;
             }
+
+            .home-main {
+    
+                h1 {
+                    font-size: 2.5em;
+                }
+            }
         }
     }
 }
@@ -116,7 +134,7 @@
                 }
     
                 h1 {
-                    font-size: 1.5em;
+                    font-size: 2em;
                 }
             }
         }

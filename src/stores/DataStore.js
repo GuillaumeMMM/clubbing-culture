@@ -1171,119 +1171,119 @@ class DataStore {
         { 
             name: 'House', 
             subGenres: [
-                { name: 'Acid House', short: 'A.H.', video: {title: 'Phuture - Acid Trax', url: 'https://www.youtube.com/embed/PJJ5FxpVGUY'} }, 
-                { name: 'Deep House', short: 'D.H.', video: {title: 'Round Two - New Day', url: 'https://www.youtube.com/embed/mqNuNY0qaO4'} },
-                { name: 'Electro House', short: 'El.H.', video: {title: 'Benny Benassi - Satisfaction', url: 'https://www.youtube.com/embed/a0fkNdPiIL4'} }, 
-                { name: 'Euro House', short: 'Eu.H.', video: {title: 'Black Box - Ride on Time', url: 'https://www.youtube.com/embed/M0quXl_od3g'} }, 
-                { name: 'Garage House', short: 'G.H.', video: {title: 'Dance Advisory Commission - Free Your Mind', url: 'https://www.youtube.com/embed/-6A_NbbiRf4'} }, 
-                { name: 'Progressive House', short: 'P.H.', video: {title: 'Leftfield - Not Forgotten', url: 'https://www.youtube.com/embed/Pwvxtg1_zAs'} },
-                { name: 'Tech House', short: 'Te.H.', video: {title: 'Dave Spoon - At Night', url: 'https://www.youtube.com/embed/-4zVFbpwiog'} },
-                { name: 'Tropical House', short: 'Tp.H.', video: {title: 'Kygo - Firestone', url: 'https://www.youtube.com/embed/9Sc-ir2UwGU'} },
-                { name: 'Tribal', short: 'Tb.H.', video: {title: 'Danny Tenaglia - Elements', url: 'https://www.youtube.com/embed/Z3Qdn11kVi4'} },
-                { name: 'UK Garage', short: 'UK.G.', details: 'Details for Minimal genre', video: {title: 'Roy Davis Jr ft Peven Everett - Gabriel', url: 'https://www.youtube.com/embed/FwxpMIEZ9fg'} },
+                { name: 'Acid House', short: 'A.H.', video: {title: 'Phuture - Acid Trax', url: 'https://www.youtube.com/watch?v=PJJ5FxpVGUY'}, details: 'Like House music, Acid House appeared in Chicago in the end of the 80s. It spread through the British raves parties. The genre was welcomed but quickly diabolized by British newspapers due to its links to ecstasy. This bad press eventually led to a gain in popularity of the genre.' }, 
+                { name: 'Deep House', short: 'D.H.', video: {title: 'Round Two - New Day', url: 'https://www.youtube.com/watch?v=mqNuNY0qaO4'}, details: 'Deep House has been invented by the same people who made House in Chicago in the 80s when they added to their work elements of Disco and Jazz.' },
+                { name: 'Electro House', short: 'El.H.', video: {title: 'Benny Benassi - Satisfaction', url: 'https://www.youtube.com/watch?v=a0fkNdPiIL4'}, details: 'Electro House is a mix between Electro and House. It was created in the end of the 90s and gained mainstream popularity in the 2000s.' }, 
+                { name: 'Euro House', short: 'Eu.H.', video: {title: 'Black Box - Ride on Time', url: 'https://www.youtube.com/watch?v=M0quXl_od3g'}, details: 'Euro House was created in the 80s and developed in the 90s in the USA and in the UK. Its main influenced are House music and Rap.'}, 
+                { name: 'Garage House', short: 'G.H.', video: {title: 'Dance Advisory Commission - Free Your Mind', url: 'https://www.youtube.com/watch?v=-6A_NbbiRf4'}, details: 'Garage House was created in the beginning of the 80s in the USA at the same time as House. Its name comes from the club Paradise Garage where it was initially popularized in New York. Its main influences are Funk and Disco music.' }, 
+                { name: 'Progressive House', short: 'P.H.', video: {title: 'Leftfield - Not Forgotten', url: 'https://www.youtube.com/watch?v=Pwvxtg1_zAs'}, details: 'Progressive House was developed in the 90s in the UK. It is Influenced by both American and European House. The genre is close from what will later appear as trance music.'},
+                { name: 'Tech House', short: 'Te.H.', video: {title: 'Dave Spoon - At Night', url: 'https://www.youtube.com/watch?v=-4zVFbpwiog'}, details: 'Tech House is inbetween House and Techno music. It was initially developed in the 90s in the UK before spreading in Europe in the 2000s.' },
+                { name: 'Tropical House', short: 'Tp.H.', video: {title: 'Kygo - Firestone', url: 'https://www.youtube.com/watch?v=9Sc-ir2UwGU'}, details: 'Tropical House was inspired by House and Deep House. It became popular in the middle of the 2010s thanks to festivals like Tomorrowland.' },
+                { name: 'Tribal', short: 'Tb.H.', video: {title: 'Danny Tenaglia - Elements', url: 'https://www.youtube.com/watch?v=Z3Qdn11kVi4'}, details: 'Tribal House is a fusion of House and World music. It appeared in the 90s.' },
+                { name: 'UK Garage', short: 'UK.G.', details: 'UK Garage appeared in the UK in the 90s. It’s inspired by Garage House, RnB and Jungle.', video: {title: 'Roy Davis Jr ft Peven Everett - Gabriel', url: 'https://www.youtube.com/watch?v=FwxpMIEZ9fg'} },
             ],
-            video: {title: 'Mr Fingers - Can You Feel It', url: 'https://www.youtube.com/embed/UeiH9Mm0E5Y'},
-            details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis lorem id massa accumsan blandit. Sed varius sit amet ipsum et ullamcorper. Sed vehicula diam nec nulla tincidunt.'
+            video: {title: 'Mr Fingers - Can You Feel It', url: 'https://www.youtube.com/watch?v=UeiH9Mm0E5Y'},
+            details: 'House was created in Chicago in the 80s. It became popular in New York and then in northern England, before spreading in all Europe.'
         },
         { 
             name: 'Techno', 
             subGenres: [
-                // { name: 'Detroit Techno', details: 'Details for Minimal genre', video: {title: 'Cybotron - Alleys Of Your Mind', url: 'https://www.youtube.com/embed/kMHNhJJnve4'} }, 
-                { name: 'Dub Techno', short: 'Du.T.', video: {title: 'Monolake - Cyan I', url: 'https://www.youtube.com/embed/7cwaEWVat2Y'} },
-                { name: 'Minimal', short: 'Min.', details: 'Details for Minimal genre', video: {title: 'André Michelle - A1', url: 'https://www.youtube.com/embed/yo-7vWBUU_c'} }, 
-                { name: 'Deep Techno', short: 'Dee.T.', details: 'Details for Minimal genre', video: {title: 'Luigi Tozzi ‎– Deep Blue: Volume 2', url: 'https://www.youtube.com/embed/YD8XlG_1Tfs'} }
+                // { name: 'Detroit Techno', details: 'Details for Minimal genre', video: {title: 'Cybotron - Alleys Of Your Mind', url: 'https://www.youtube.com/watch?v=kMHNhJJnve4'} }, 
+                { name: 'Dub Techno', short: 'Du.T.', video: {title: 'Monolake - Cyan I', url: 'https://www.youtube.com/watch?v=7cwaEWVat2Y'}, details: 'Dub Techno is a subgenre of Techno inspired by Minimal Techno and Jamaican Dub Music. It was invented in the 90s by Basic Channel, a duo of Minimal Techno producers.' },
+                { name: 'Minimal', short: 'Min.', video: {title: 'André Michelle - A1', url: 'https://www.youtube.com/watch?v=yo-7vWBUU_c'}, details: 'Minimal Techno was invented in the 90s in Detroit, even though it has only been called Minimal in the 2000s by German producers.' }, 
+                { name: 'Deep Techno', short: 'Dee.T.', details: 'Sometimes called Dark Techno, Deep Techno is a subgenre of Minimal Techno born in Italy in the 2000s.', video: {title: 'Luigi Tozzi ‎– Deep Blue: Volume 2', url: 'https://www.youtube.com/watch?v=YD8XlG_1Tfs'} }
             ], 
             
-            details: 'Details for techno genre',
-            video: {title: 'Rhythim Is Rhythim – Strings of Life', url: 'https://www.youtube.com/embed/DM8j4AF06II'} 
+            details: 'Techno music appeared in the USA at the same time as House music. It’s a general genre that can take its inspiration in Electro, New Wave, Soul, Funk etc. It also quickly became a very popular genre in England and Germany.',
+            video: {title: 'Rhythim Is Rhythim – Strings of Life', url: 'https://www.youtube.com/watch?v=DM8j4AF06II'} 
         },
         { 
             name: 'Trance', 
             subGenres: [
-                { name: 'Psy-Trance', short: 'Psy-T.', details: 'Details for Minimal genre', video: {title: 'Orichalcum - Wicked Mille', url: 'https://www.youtube.com/embed/2KaJmmB-Gf4'} },
-                { name: 'Hard Trance', short: 'H.T.', details: 'Details for Minimal genre', video: {title: 'Tidy Trax - Hard Trance', url: 'https://www.youtube.com/embed/mNm-NagbzqM'} }, 
-                { name: 'Progressive Trance', short: 'Pr.T.', details: 'Details for Minimal genre', video: {title: 'Human Element - Feels Like Home', url: 'https://www.youtube.com/embed/ePSAztYwzhw'} },
+                { name: 'Psy-Trance', short: 'Psy-T.', details: 'Psy-Trance was developed in Europe in the 90s. It is inspired by the Indian Goa-Trance. It is a subgenre of Trance characterized by a high speed tempo and more original samples.', video: {title: 'Orichalcum - Wicked Mille', url: 'https://www.youtube.com/watch?v=2KaJmmB-Gf4'} },
+                { name: 'Hard Trance', short: 'H.T.', details: 'Hard Trance was born in Western Europe in the beginning of the 90s. It really developed in the UK in the beginning of the 2000s as a fusion of Hard House and trance.', video: {title: 'Tidy Trax - Hard Trance', url: 'https://www.youtube.com/watch?v=mNm-NagbzqM'} }, 
+                { name: 'Progressive Trance', short: 'Pr.T.', details: 'Progressive Trance was born in the beginning of the 2000s, and is a subgenre of Psy-Trance but with a slower tempo. It uses progressive elements from Progressive House or Minimal Techno.', video: {title: 'Human Element - Feels Like Home', url: 'https://www.youtube.com/watch?v=ePSAztYwzhw'} },
             ], 
             
-            details: 'Details for techno genre',
-            video: {title: 'Age Of Love - The Age Of Love', url: 'https://www.youtube.com/embed/SOsGNzYTUwg'} 
+            details: 'Trance music was born in Germany in the beginning of the 90s. It’s a very diversified genre which finds its roots in Techno, Acid House or New Beat.',
+            video: {title: 'Age Of Love - The Age Of Love', url: 'https://www.youtube.com/watch?v=SOsGNzYTUwg'} 
         },
         { 
             name: 'EDM', 
             subGenres: [
-                { name: 'Breakbeat', short: 'BkB.', details: 'Details for Minimal genre', video: {title: 'Harmony & Xtreme - Come on and Treat', url: 'https://www.youtube.com/embed/vLVRrHi5djE'} },
-                { name: 'Drum n Bass', short: 'DnB.', details: 'Details for Minimal genre', video: {title: 'Pendulum Hold Your Colour', url: 'https://www.youtube.com/embed/qtD1IpH5a5Q'} },
-                { name: 'Jungle', short: 'Jgl.', details: 'Details for Minimal genre', video: {title: 'Goldie - Inner City Life', url: 'https://www.youtube.com/embed/anQgfwdZUkE'} },
-                { name: 'Dubstep', short: 'Dbp.', details: 'Details for Minimal genre', video: {title: 'Skream - Midnight Request Line', url: 'https://www.youtube.com/embed/p6WJYe6n-l8'} },
-                { name: 'Hardcore', short: 'Hc.', details: 'Details for Minimal genre', video: {title: 'Mescalinum United - We Have Arrived', url: 'https://www.youtube.com/embed/BL5xh-wt3Vc'} }, 
-                { name: 'Happy Hardcore', short: 'H.Hc.', details: 'Details for Minimal genre', video: {title: 'Mr Brown - Turn It Out', url: 'https://www.youtube.com/embed/9ji7fj5M0qo'} }, 
-                { name: 'Hard House', short: 'H.H.', details: 'Details for Minimal genre', video: {title: 'KANDY & Olly James - Rumbla (JPR & Blackllax Remix)', url: 'https://www.youtube.com/embed/qoGyHyrndso'} }
+                { name: 'Breakbeat', short: 'BkB.', details: 'Breakbeat was invented in the USA and spread during the 90s. Its specific rhythm is inspired by Funk music. Hip Hop dancers are called “breakers” because of this specific rhythm.', video: {title: 'Harmony & Xtreme - Come on and Treat', url: 'https://www.youtube.com/watch?v=vLVRrHi5djE'} },
+                { name: 'Drum n Bass', short: 'DnB.', details: 'Drum n Bass was born in the UK in the end of the 90s. It’s sometimes compared to Jazz for the diversity of sounds a listener can hear.', video: {title: 'Pendulum Hold Your Colour', url: 'https://www.youtube.com/watch?v=qtD1IpH5a5Q'} },
+                { name: 'Jungle', short: 'Jgl.', details: 'Jungle appeared around 1993 in the UK. It was made popular through the London rave culture. It’s the ancestor of Drum n Bass but with more emphasis put on the rhythm complexity.', video: {title: 'Goldie - Inner City Life', url: 'https://www.youtube.com/watch?v=anQgfwdZUkE'} },
+                { name: 'Dubstep', short: 'Dbp.', details: 'Dubstep was born in South London in the end of the 90s. Its inspired by UK Garage and 2-Step.', video: {title: 'Skream - Midnight Request Line', url: 'https://www.youtube.com/watch?v=p6WJYe6n-l8'} },
+                // { name: 'Hardcore', short: 'Hc.', details: 'Details for Minimal genre', video: {title: 'Mescalinum United - We Have Arrived', url: 'https://www.youtube.com/watch?v=BL5xh-wt3Vc'} }, 
+                { name: 'Happy Hardcore', short: 'H.Hc.', details: 'Happy Hardcore was born in UK in the end of the 90s. It uses elements of Hardcore Techno, Breakbeat, Italo House or Disco.', video: {title: 'Mr Brown - Turn It Out', url: 'https://www.youtube.com/watch?v=9ji7fj5M0qo'} }, 
+                { name: 'Hard House', short: 'H.H.', details: 'Hard House was born in the UK in the end of the 90s. ', video: {title: 'KANDY & Olly James - Rumbla (JPR & Blackllax Remix)', url: 'https://www.youtube.com/watch?v=qoGyHyrndso'} }
             ], 
             
-            details: 'Details for techno genre',
-            video: {title: 'Krewella - Alive', url: 'https://www.youtube.com/embed/J-gYJBsln-w'} 
+            details: 'Electronic Dance Music, or just Dance, in not really a music genre but rather all kind of clubbing music made for dancing.',
+            video: {title: 'Krewella - Alive', url: 'https://www.youtube.com/watch?v=J-gYJBsln-w'} 
         },
         { 
             name: 'Ambient', 
             subGenres: [
-                { name: 'Ambient House', short: 'Amb.H.', details: 'Details for Minimal genre', video: {title: 'The Future Sound Of London - Papua New Guinea', url: 'https://www.youtube.com/embed/wfWMv8Y1V5E'} },
-                { name: 'Ambient Techno', short: 'Amb.T.', details: 'Details for Minimal genre', video: {title: 'Wanderwelle - The Starry Night', url: 'https://www.youtube.com/embed/MdgXv-UhmX8'} },
-                { name: 'Downtempo', short: 'Dwn.', details: 'Details for Minimal genre', video: {title: 'Four Tet - Dreamer', url: 'https://www.youtube.com/embed/PvSD8zQzRCI'} },
-                { name: 'IDM', short: 'IDM', details: 'Details for Minimal genre', video: {title: 'Boards of Canada - Everything You Do is a Balloon', url: 'https://www.youtube.com/embed/dQEmaj9C6ko'} },
+                { name: 'Ambient House', short: 'Amb.H.', details: 'Ambient House was born in the UK in the 90s. It’s a fusion of Acid House and Ambient.', video: {title: 'The Future Sound Of London - Papua New Guinea', url: 'https://www.youtube.com/watch?v=wfWMv8Y1V5E'} },
+                { name: 'Ambient Techno', short: 'Amb.T.', details: 'Ambient Techno was born in Europe in the 90s. It’s a fusion of Techno and Ambient. It has sometimes been called by producers “Intelligent Techno” to be distinguished from the rave culture.', video: {title: 'Wanderwelle - The Starry Night', url: 'https://www.youtube.com/watch?v=MdgXv-UhmX8'} },
+                { name: 'Downtempo', short: 'Dwn.', details: 'Downtempo was popularized in Europe in the end of the 90s. It’s a subgenre of Ambient music. It has sometimes been compared with Trip Hop for its slow tempo and its tranquillity.', video: {title: 'Four Tet - Dreamer', url: 'https://www.youtube.com/watch?v=PvSD8zQzRCI'} },
+                { name: 'IDM', short: 'IDM', details: 'Intelligent Dance Music was born in the beginning of the 90s in the USA and the UK. It was also called Ambient Techno until it became different enough from Techno.', video: {title: 'Boards of Canada - Everything You Do is a Balloon', url: 'https://www.youtube.com/watch?v=dQEmaj9C6ko'} },
             ], 
             
-            details: 'Details for techno genre',
-            video: {title: 'Aphex Twin - #3', url: 'https://www.youtube.com/embed/VAoTsU7JlSI'} 
+            details: 'Ambient Music is discrete but interesting. It was initially developed in the 70s but became popular in the 90s with subgenres like IDM, Ambient House or Ambient Techno.',
+            video: {title: 'Aphex Twin - #3', url: 'https://www.youtube.com/watch?v=VAoTsU7JlSI'} 
         },
         { 
             name: 'RnB/Swing', 
             subGenres: [
-                { name: 'Soul', short: 'Sl.', details: 'Details for Minimal genre', video: {title: 'The Detroit Emeralds - Do Me Right', url: 'https://www.youtube.com/embed/nB9VV0sPNPU'} },
-                { name: 'Disco', short: 'Dsc.', details: 'Details for Minimal genre', video: {title: 'Motor City Drum Ensemble - Raw Cuts #2', url: 'https://www.youtube.com/embed/k6AI_EMBRuE'} },
-                { name: 'Italo Disco', short: 'I.Dsc.', details: 'Details for Minimal genre', video: {title: 'Alexander Robotnick - Problèmes D\'Amour', url: 'https://www.youtube.com/embed/jMN9_7tPFCY'} },
-                { name: 'Nu Disco', short: 'N.Dsc.', details: 'Details for Minimal genre', video: {title: 'Bruno Mars - Treasure', url: 'https://www.youtube.com/embed/nPvuNsRccVw'} },
-                { name: 'Funk', short: 'Fnk.', details: 'Details for Minimal genre', video: {title: 'Carl Douglas - Kung Fu Fighting', url: 'https://www.youtube.com/embed/g75QS0nNldA'} },
+                { name: 'Soul', short: 'Sl.', details: 'Soul was born in the 50s in the USA. The genre is in-between Rhythm and Blues and Gospel.', video: {title: 'The Detroit Emeralds - Do Me Right', url: 'https://www.youtube.com/watch?v=nB9VV0sPNPU'} },
+                { name: 'Disco', short: 'Dsc.', details: 'Disco is a dancing genre born in the 70s in the USA. It’s inspired by Funk or Soul. It popularized as an alternative to Rock music.', video: {title: 'Madonna - Hung Up', url: 'https://www.youtube.com/watch?v=EDwb9jOVRtU'} },
+                { name: 'Italo Disco', short: 'I.Dsc.', details: 'Italo Disco was born in the end of the 70s in Italy. It’s a subgenre of Disco and is influenced by Italo House or Eurodance. It gained popularity in the 80s in all Europe and in the USA.', video: {title: 'Alexander Robotnick - Problèmes D\'Amour', url: 'https://www.youtube.com/watch?v=jMN9_7tPFCY'} },
+                { name: 'Nu Disco', short: 'N.Dsc.', details: 'Nu Disco appears in the beginning of the 2000s and is popularized in France and England as the rebirth of Disco. It brings together Disco music and House music.', video: {title: 'Bruno Mars - Treasure', url: 'https://www.youtube.com/watch?v=nPvuNsRccVw'} },
+                { name: 'Funk', short: 'Fnk.', details: 'Funk was born in the 60s in the USA. It’s mostly influenced by Jazz and Soul.', video: {title: 'Carl Douglas - Kung Fu Fighting', url: 'https://www.youtube.com/watch?v=g75QS0nNldA'} },
             ], 
             
-            details: 'Details for experimental genre',
-            video: {title: 'Sam Cooke - Chain Gang', url: 'https://www.youtube.com/embed/zBn5aIfZElE'}
+            details: 'RnB, also called contemporary RnB, was born in the 80s in the USA and finds its roots in Rhythm and Blues, Hip Hop, Soul and Pop.',
+            video: {title: 'Alicia Keys - Fallin', url: 'https://www.youtube.com/watch?v=Urdlvw0SSEc'}
         },
         { 
             name: 'Experimental',
             subGenres: [
-                { name: 'Noise', short: 'Ns.', details: 'Details for Minimal genre', video: {title: 'Merzbow Boiler Room Tokyo Live Set', url: 'https://www.youtube.com/embed/fR_8gpJCT4I'} }
+                { name: 'Noise', short: 'Ns.', details: 'Noise music experiments were already made in the 20s. The goal of the genre is to go against the usual concepts of music, putting aesthetic aside to focus on other things like structure, or meaning.', video: {title: 'Merzbow Boiler Room Tokyo Live Set', url: 'https://www.youtube.com/watch?v=fR_8gpJCT4I'} }
             ], 
             
-            details: 'Details for experimental genre',
-            video: {title: 'Halim El-Dabh - Wire Recorder Piece', url: 'https://www.youtube.com/embed/j_kbNSdRvgo'} 
+            details: 'Experimental music gathers all types of music which experiments with technical tools, or new artistic methods that are different from the usual cultural standards.',
+            video: {title: 'Halim El-Dabh - Wire Recorder Piece', url: 'https://www.youtube.com/watch?v=j_kbNSdRvgo'} 
         },
         { 
             name: 'Industrial',
             subGenres: [], 
             
-            details: 'Details for experimental genre',
-            video: {title: 'Front Line Assembly - Mindphaser', url: 'https://www.youtube.com/embed/RWjBPIbJMzY'}
+            details: 'Industrial music for industrial people.',
+            video: {title: 'Front Line Assembly - Mindphaser', url: 'https://www.youtube.com/watch?v=RWjBPIbJMzY'}
         },
         { 
             name: 'New Wave',
             subGenres: [
-                { name: 'Electro', short: 'Elec.', details: 'Details for Minimal genre', video: {title: 'Kraftwerk - Das Model', url: 'https://www.youtube.com/embed/nB9VV0sPNPU'} },
-                { name: 'Synth-Pop', short: 'Sy-P.', details: 'Details for Minimal genre', video: {title: 'Thompson Twins - The Gap', url: 'https://www.youtube.com/embed/0SEwy1as78E'} }
+                { name: 'Electro', short: 'Elec.', details: 'Electro was born in the 80s as Electro-Funk or Electro Hip Hop. It’s based on the use of the specific rhythm box Roland TR-808.', video: {title: 'Kraftwerk - Das Model', url: 'https://www.youtube.com/watch?v=OQIYEPe6DWY'} },
+                { name: 'Synth-Pop', short: 'Sy-P.', details: 'Synth-Pop appeared in the end of the 70s in Europe and Japan. It’s a form of Rock or Pop influenced by electronic genres like House, Detroit Techno or Trance music.', video: {title: 'Thompson Twins - The Gap', url: 'https://www.youtube.com/watch?v=0SEwy1as78E'} }
             ], 
             
-            details: 'Details for experimental genre',
-            video: {title: 'New Order - Bizarre Love Triangle', url: 'https://www.youtube.com/embed/7uEBuqkkQRk'}
+            details: 'New Wave became popular in the 80s in the UK and the USA. It’s a mix between Punk music and Electronic music.',
+            video: {title: 'New Order - Bizarre Love Triangle', url: 'https://www.youtube.com/watch?v=7uEBuqkkQRk'}
         },
         { 
             name: 'Hip Hop',
             subGenres: [
-                { name: 'Grime', short: 'Gr.', details: 'Details for Minimal genre', video: {title: 'Skepta - Konnichiwa', url: 'https://www.youtube.com/embed/XoQ8e0S1KBo'} },
-                { name: 'Trap', short: 'Tr.', details: 'T.I. - 24\'s', video: {title: 'Skepta - Konnichiwa', url: 'https://www.youtube.com/embed/E1u9u7mq9Ck'} },
-                { name: 'Favela Funk', short: 'Fa.Fu.', details: 'T.I. - 24\'s', video: {title: 'M.I.A. - Bucky Done Gun', url: 'https://www.youtube.com/embed/VNJ96imMskk'} },
+                { name: 'Grime', short: 'Gr.', details: 'Grime appeared in the 2000s in the UK. It’s a subgenre of Hip Hop influenced by UK Garage, Drum n Bass or Dancehall.', video: {title: 'Skepta - Konnichiwa', url: 'https://www.youtube.com/watch?v=XoQ8e0S1KBo'} },
+                { name: 'Trap', short: 'Tr.', details: 'Trap music was born in the beginning of the 90s in the USA. In the 2010s, the genre became popular again thanks to producers integrating it with EDM.', video: {title: 'Skepta - Konnichiwa', url: 'https://www.youtube.com/watch?v=E1u9u7mq9Ck'} },
+                { name: 'Favela Funk', short: 'Fa.Fu.', details: 'Favela Funk was born in the 80s in the favelas of Rio de Janeiro.', video: {title: 'M.I.A. - Bucky Done Gun', url: 'https://www.youtube.com/watch?v=VNJ96imMskk'} },
             ], 
             
-            details: 'Details for experimental genre',
-            video: {title: 'Afrika Bambaataa - Planet Rock', url: 'https://www.youtube.com/embed/Wg2SW1oqSAk'}
+            details: 'Hip Hop is a cultural and musical movement which appeared in the USA in the 70s. It’s a genre influenced by Funk and Soul which is often accompanied with rap.',
+            video: {title: 'Afrika Bambaataa - Planet Rock', url: 'https://www.youtube.com/watch?v=Wg2SW1oqSAk'}
         }
     ];
 

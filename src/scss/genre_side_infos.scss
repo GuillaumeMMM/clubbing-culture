@@ -1,5 +1,5 @@
 .genre-side-infos-container {
-    background-color: #041821bd;
+    background-color: #041821d8;
     position: absolute;
     top: 0;
     left: -1000px;
@@ -45,6 +45,28 @@
 
     .genre-side-infos-content {
         padding: 40px;
+        .genre-side-infos-details {
+            width: 80%;
+            display: flex;
+            // justify-content: center;
+        }
+
+        .genre-side-infos-link {
+            width: 80%;
+            margin-top: 30px;
+            // display: flex;
+            // justify-content: center;
+
+            a {
+                color: white;
+                font-weight: 800;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+        }
     }
 
     .genre-side-video {

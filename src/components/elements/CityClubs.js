@@ -15,9 +15,9 @@ class CityClubs extends Component {
 
     render() {
         return (
-            <div className="city-clubs-container">
+            <div className="city-clubs-container" id="city-clubs-container">
                 <Separator></Separator>
-                <h2>Explore the main {this.props.cityName} Clubs</h2>
+                <h2 id="scroll-title-target">Explore the main {this.props.cityName} Clubs</h2>
                 <CityClubHelp HelpStore={this.props.HelpStore} DataStore={this.props.DataStore} cityName={this.props.cityName}></CityClubHelp>
                 {/* <Separator></Separator> */}
                 <CityClubsFilters 
@@ -51,28 +51,33 @@ class CityClubs extends Component {
         );
     }
 
+    // componentDidUpdate(prevProps) {
+    //     console.log(prevProps, this.props);
+        
+    // }
+
     toggleFilterGenre = (genre) => {
         let filterActiveGenresTmp = JSON.parse(JSON.stringify(this.state.filterActiveGenres));
         if (this.state.filterActiveGenres.indexOf(genre) !== -1) {
             filterActiveGenresTmp.splice(this.state.filterActiveGenres.indexOf(genre), 1);
-            this.setState({filterActiveGenres: filterActiveGenresTmp});
+            this.setState({filterActiveGenres: filterActiveGenresTmp, clubsActiveGenres: filterActiveGenresTmp});
         } else {
             filterActiveGenresTmp.push(genre);
-            this.setState({filterActiveGenres: filterActiveGenresTmp});
+            this.setState({filterActiveGenres: filterActiveGenresTmp, clubsActiveGenres: filterActiveGenresTmp});
         }
     }
 
     toggleFilterAll = () => {
-        this.setState({filterActiveGenres: this.state.filterAllGenres});
+        this.setState({filterActiveGenres: this.state.filterAllGenres, clubsActiveGenres: this.state.filterAllGenres});
     }
 
     toggleFilterNone = () => {
-        this.setState({filterActiveGenres: []});
+        this.setState({filterActiveGenres: [], clubsActiveGenres: []});
     }
 
-    applyFilters = () => {
-        this.setState({clubsActiveGenres: this.state.filterActiveGenres})
-    }
+    // applyFilters = () => {
+    //     this.setState({clubsActiveGenres: this.state.filterActiveGenres})
+    // }
 }
 
 export default CityClubs;

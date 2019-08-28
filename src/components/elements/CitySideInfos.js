@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import GlobalMapStatsBubbles from './GlobalMapStatsBubbles';
 import ClearIcon from '@material-ui/icons/Clear';
+import RegularButton from './RegularButton';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class CitySideInfos extends Component {
     render() {
@@ -23,7 +25,10 @@ class CitySideInfos extends Component {
                     setActiveGenre={this.props.setActiveGenre}
                 ></GlobalMapStatsBubbles>
                 <div className="city-side-infos-content">
-                {this.props.DataStore.citiesInfos.filter(city => city.name === this.props.city.name)[0].globalMapText}
+                {/* {this.props.DataStore.citiesInfos.filter(city => city.name === this.props.city.name)[0].globalMapText} */}
+                    <Link to={'/city/' + this.props.city.name}>
+                        <RegularButton id={"city-side-infos-button-" + this.props.id} colors={['#093F9B', '#01B8AA', 'white']} text={'Explore ' + this.props.city.name + ' data'}></RegularButton>
+                    </Link>
                 </div>
             </div>
         );

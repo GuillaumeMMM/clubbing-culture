@@ -60,7 +60,7 @@ class Genres extends Component {
                 {/* <Back text={'Back to top'} direction='top' elmId='home-container'></Back> */}
                 {/* <RegularButton text="Click Me!" id="genres-1" colors={['#EC148C', '#ED1258', '#E512ED']}></RegularButton>
                 <RegularButton text="Click Me 2!" id="genres-2" colors={['#093F9B', '#096D9B', '#7575B7']}></RegularButton> */}
-                <Footer></Footer>
+                {/* <Footer></Footer> */}
             </div>
         );
     }

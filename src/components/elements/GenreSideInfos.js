@@ -16,9 +16,10 @@ class GenreSideInfos extends Component {
                     </div>
                 </div>
                 <div className="genre-side-infos-content">
-                    {this.props.details.details}
+                    <div className="genre-side-infos-details">{this.props.details.details}</div>
+                    <div className="genre-side-infos-link">Listen to some {this.props.details.name} here : <a href={this.props.details.video.url} target="_blank" rel="noopener noreferrer">{this.props.details.video.title}</a></div>
                 </div>
-                <iframe width="100%" height="auto" className="genre-side-video" src={this.props.details.video.url}></iframe>
+                {/* <iframe width="100%" height="auto" className="genre-side-video" src={this.props.details.video.url}></iframe> */}
             </div>
         );
     }

@@ -17,7 +17,7 @@ class CityClubHelp extends Component {
 
     render() {
         return (
-            <div className="city-club-help-container">
+            <div className="city-club-help-container" id="city-club-help-container">
                 <div className="city-club-help-header">
                     <h2 className="title">How to Read ?</h2>
                 </div>

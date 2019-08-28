@@ -10,7 +10,7 @@ class HomeDesign extends Component {
 
     render() {
         return (
-           <div className="home-design-container" id={"home-design-chart-" + this.props.id} style={{ width: '50vw', height: '65vh' }}>
+           <div className="home-design-container" id={"home-design-chart-" + this.props.id} style={{ width: this.props.dimensions.width, height: this.props.dimensions.height }}>
                
            </div>
         );

@@ -21,9 +21,9 @@ class CityClubsFilters extends Component {
                             >{genre}</span>
                     )}
                 </div>
-                <div className="apply-filters" onClick={() => this.props.applyFilters()}>
+                {/* <div className="apply-filters" onClick={() => this.props.applyFilters()}>
                     <RegularButton id={'city-clubs-filter'} colors={['#093F9B', '#01B8AA']} text={'Apply Filters'}></RegularButton>
-                </div>
+                </div> */}
             </div>
         );
     }

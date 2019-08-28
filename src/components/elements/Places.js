@@ -32,7 +32,7 @@ class Places extends Component {
                         ?
                     </div>
             </div>
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
             {/* <RegularButton text="Click Me!" id="genres-1" colors={['#EC148C', '#ED1258', '#E512ED']}></RegularButton>
             <RegularButton text="Click Me 2!" id="genres-2" colors={['#093F9B', '#096D9B', '#7575B7']}></RegularButton> */}
         </div>

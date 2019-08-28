@@ -5,11 +5,11 @@ import HomeDesign from './HomeDesign';
 import BrowserDetection from 'react-browser-detection';
 
 const browserHomeDesignHandler = {
-    firefox: () => <HomeDesign colors={['#3CE8C8', '#98CC74', '#FFCE30']} animations='off'></HomeDesign>,
-    ie: () => <HomeDesign colors={['#3CE8C8', '#98CC74', '#FFCE30']} animations='off'></HomeDesign>,
-    edge: () => <HomeDesign colors={['#3CE8C8', '#98CC74', '#FFCE30']} animations='off'></HomeDesign>,
-    'android-chrome': () => <HomeDesign colors={['#3CE8C8', '#98CC74', '#FFCE30']} animations='off'></HomeDesign>,
-    default: (browser) => <HomeDesign colors={['#3CE8C8', '#98CC74', '#FFCE30']} animations='on'></HomeDesign>,
+    firefox: () => <HomeDesign colors={['#3CE8C8', '#98CC74', '#FFCE30']} dimensions={{width: '50vw', height: '65vh'}} animations='off'></HomeDesign>,
+    ie: () => <HomeDesign colors={['#3CE8C8', '#98CC74', '#FFCE30']} dimensions={{width: '50vw', height: '65vh'}} animations='off'></HomeDesign>,
+    edge: () => <HomeDesign colors={['#3CE8C8', '#98CC74', '#FFCE30']} dimensions={{width: '50vw', height: '65vh'}} animations='off'></HomeDesign>,
+    'android-chrome': () => <HomeDesign colors={['#3CE8C8', '#98CC74', '#FFCE30']} dimensions={{width: '50vw', height: '65vh'}} animations='off'></HomeDesign>,
+    default: (browser) => <HomeDesign colors={['#3CE8C8', '#98CC74', '#FFCE30']} dimensions={{width: '50vw', height: '65vh'}} animations='on'></HomeDesign>,
 };
 
 class CityStory extends Component {

@@ -47,6 +47,7 @@ class CityExploration extends Component {
                         updateHiglightedGenre={this.updateHiglightedGenre}
                         avaliableGenres={this.props.DataStore.genresNames}
                         handleAvaliableGenresInMap={this.props.DataStore.handleAvaliableGenresInMap}
+                        cityName = {this.props.cityName}
                     ></CityExplorationFilters>
                 </div>
                 <CityClubs 

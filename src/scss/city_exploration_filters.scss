@@ -1,31 +1,86 @@
 .city-exploration-filters-container {
     width: 50vw;
     // background-color: pink;
+    padding: 0 30px;
+    position: relative;
 
-    .form-container {
-        // display: inline;
+    .displayed-genres {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
-    .genre-name {
+    .genre {
         cursor: pointer;
-        margin: 0 10px;
+        display: inline-block;
+        margin: 7px 5px;
+        padding: 2px 3px;
+        border-radius: 4px;
+        
+    }
+
+    .form-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     p {
-        width: 80%;
-        margin-left: 10%;
-        padding: 0 10px 10px 10px;
-        margin-bottom: 20px;
+        // padding: 0 10px 10px 10px;
+        // margin-bottom: 20px;
+        margin: 20px 0;
     }
 
-    span {
-        display: inline-block;
+    .clubs-link {
+        position: absolute;
+        bottom: 0;
+        left: 30px;
+        display: flex;
+        align-items: center;
+        width: 50%;
+        cursor: pointer;
+
+        .link-content{
+            position: relative;
+            display: flex;
+            align-items: center;
+
+            .clubs-icon {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                margin-left: 20px;
+        
+                .circle-svg {
+                    position: absolute;
+                    z-index: 2;
+            
+                    .outer {
+                        fill: transparent;
+                        stroke: white;
+                        stroke-width: 1.5;
+                        stroke-dasharray: 100;
+                        stroke-dashoffset: 100;
+                        transition: stroke-dashoffset 0.5s;
+                    }
+                }
+            }
+        }
+
+        &:hover .circle-svg .outer {
+            stroke-dashoffset: 0 !important;
+        }
     }
 }
 
 @media screen and (max-width: 900px) {
     .city-exploration-filters-container {
-        width: 100vw;
+        width: 80%;
+        margin-left: 5%;
         margin-top: 30px;
+        min-height: 50vh;
     }
 }
