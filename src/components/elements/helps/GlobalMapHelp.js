@@ -29,7 +29,7 @@ class GlobalMapHelp extends Component {
                 <div className="global-map-help-content">
                     <div className="left-part" style={{left: this.state.currentPage === 0 ? '0px' : '-2000px', opacity: this.state.currentPage === 0 ? 1 : 0}}>
                         <div onClick={() => this.setState({currentPage: 1})} className="left-svg-container" id="left-help-svg-container" style={{ width: '100px', height: '100px' }}></div>
-                        <p>On the map, each city with clubbing data avaliable has been represented by a waving circle.</p>
+                        <p>On the map, each city with clubbing data available has been represented by a waving circle.</p>
                         <p>Click or tap on the city you want to explore.</p>
                     </div>
                     <div className="right-part" style={{left: this.state.currentPage === 1 ? '0px' : '-2000px', opacity: this.state.currentPage === 1 ? 1 : 0}}>

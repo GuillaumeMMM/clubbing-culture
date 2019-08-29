@@ -38,7 +38,7 @@ class CityClubHelp extends Component {
                         <p>Click or tap on one of the lines to see the details of the event (Name, line-up and music genres).</p>
                     </div>
                     <div className="right-part" style={{ pointerEvents: this.state.currentPage === 1 ? 'all' : 'none', opacity: this.state.currentPage === 1 ? 1 : 0 }}>
-                        <p>You can also toggle the avaliable genres and filter the ones you prefer.</p>
+                        <p>You can also toggle the available genres and filter the ones you prefer.</p>
                         <div className="filters">
                             <span onClick={() => this.toggleGenre('House')} style={{backgroundColor: this.state.clubsActiveGenres.indexOf('House') !== -1 ? '#EC148C' : 'transparent'}}>House</span>
                             <span onClick={() => this.toggleGenre('Techno')} style={{backgroundColor: this.state.clubsActiveGenres.indexOf('Techno') !== -1 ? '#093F9B' : 'transparent'}}>Techno</span>
